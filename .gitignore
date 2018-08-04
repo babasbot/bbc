@@ -1,0 +1,3 @@
+*.tab.[ch]
+*.yy.c
+bbc
