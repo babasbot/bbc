@@ -4,6 +4,7 @@
 
 %token NUMBER
 %token ADD SUB MUL DIV
+%token AND
 %token OP CP
 %token EOL
 
@@ -21,6 +22,7 @@ exp: factor
 factor: term
   | factor MUL term { $$ = $1 * $3 }
   | factor DIV term { $$ = $1 / $3 }
+  | factor AND term { $$ = $1 & $3 }
   ;
 
 term: NUMBER

@@ -10,6 +10,8 @@
 "*" { return MUL; }
 "/" { return DIV; }
 
+"&" { return AND; }
+
 "(" { return OP; }
 ")" { return CP; }
 
