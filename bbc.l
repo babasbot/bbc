@@ -11,6 +11,7 @@
 "/" { return DIV; }
 
 "&" { return AND; }
+"|" { return OR; }
 
 "(" { return OP; }
 ")" { return CP; }
