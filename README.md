@@ -3,6 +3,18 @@
 **bbc** is a simple calculator language with interactive execution of 
 statements.
 
+## Getting Started
+
+```
+$ make
+```
+
+And then execute:
+
+```
+$ make install
+```
+
 ## Examples
 
 ### Interactive Execution
